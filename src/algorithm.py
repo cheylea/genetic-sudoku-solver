@@ -201,7 +201,7 @@ def geneticAlgorithm(max_limit, grid_to_solve):
             # Check for correct solutions
             # print("Run:" + str(limit))
             if population[0][0] == 0:
-                return(population[0])
+                return(population[0][1])
 
             else:
                 # Mutate Solutions
